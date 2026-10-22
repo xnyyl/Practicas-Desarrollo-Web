@@ -1,0 +1,14 @@
+package mx.edu.backendacademico.repository;
+
+import java.util.List;
+import java.util.Optional;
+import mx.edu.backendacademico.domain.Alumno;
+
+// Expresa el contrato de almacenamiento sin imponer una tecnología a los servicios.
+public interface AlumnoRepository {
+    Alumno guardar(Alumno alumno);
+    List<Alumno> buscarTodos();
+    Optional<Alumno> buscarPorId(Long id);
+    boolean existePorMatricula(String matricula);
+    void eliminarPorId(Long id);
+}

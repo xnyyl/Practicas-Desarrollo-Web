@@ -1,0 +1,4 @@
+mx\edu\backendacademico\model\EstatusAlumno.class
+mx\edu\backendacademico\controller\SaludoController.class
+mx\edu\backendacademico\BackendAcademicoApplication.class
+mx\edu\backendacademico\model\Alumno.class
